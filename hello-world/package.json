@@ -37,6 +37,14 @@
     "registry-url": "^3.0.3",
     "semver": "^5.1.0"
   },
+   "dependencies": {
+    "gatsby": "^1.9.xxx"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
   "deprecated": false,
   "description": "Get the package.json of a package from the npm registry",
   "devDependencies": {
